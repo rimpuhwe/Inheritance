@@ -1,9 +1,9 @@
 public class Bird extends Animal{
-    Bird(){
-        super("Bird");
+    Bird(String animal, String sound){
+        super(animal,sound);
     }
     public void fly(){
-        System.out.println("Bird goes : Flying ");
+        System.out.println(animal +" goes : Flying ");
 
     }
 }

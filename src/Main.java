@@ -6,6 +6,9 @@ public class Main {
         Dog dog = new Dog("puppy" , "woof");
         dog.makeSound();
         dog.run();
+        // runtime polymorphism
+        Animal animal = new Cat("cat", "meow");
+        animal.makeSound();
     }
 
 }
